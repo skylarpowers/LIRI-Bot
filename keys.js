@@ -1,4 +1,3 @@
-//console.log('this is loaded');
 
 exports.twitterKeys = {
   consumer_key: 'dHlXYq2zY10PnYvImxEc7fxWK',
@@ -7,7 +6,3 @@ exports.twitterKeys = {
   access_token_secret: 'E9B1IRozNMHbqN9Zyybo6duSYjEJy3GMdvFWDHwoyOwuM',
 }
 
-// module.exports = twitterKeys;
-
-// spotify id df22be70ca4b4198bba6522779184564
-// spotify secret e916f15b17924888a5c05d0f18104580

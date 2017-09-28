@@ -1,7 +1,6 @@
 var fs = require('fs');
 var Twitter = require('twitter');
 var spotify = require('spotify');
-//var omdb = require('omdb');
 var request = require('request');
 var input1 = process.argv[2];
 var input2 = process.argv.splice(3).join(" ");
@@ -15,7 +14,6 @@ var spotify = new Spotify({
 
 
 var keys = require('./keys.js');
-// console.log(keys.twitterKeys);
 
 var client = new Twitter(keys.twitterKeys);
 
@@ -48,7 +46,6 @@ function run() {
             };
         });
 
-        //log();
 
     } else if (input1 === "spotify-this-song") {
 
@@ -74,7 +71,6 @@ function run() {
             }
         });
 
-        //log();
 
     } else if (input1 === "movie-this") {
 
@@ -105,19 +101,15 @@ function run() {
 
         });
 
-        //log();
 
     } else if (input1 === "do-what-it-says") {
 
-        //log();
 
         fs.readFile('random.txt', 'utf8', function(err, data) {
             if (err) throw err;
 
             var arr = data.split(',');
 
-            //input1 = arr[0].trim();
-            //input2 = arr[1].trim();
             run();
 
         });
