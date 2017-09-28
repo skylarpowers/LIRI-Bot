@@ -1,0 +1,29 @@
+{
+  "name": "liribot",
+  "version": "1.0.0",
+  "description": "super dope",
+  "main": "liri.js",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylarpowers/LIRI-Bot.git"
+  },
+  "keywords": [
+    "liri"
+  ],
+  "author": "Skylar Powers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skylarpowers/LIRI-Bot/issues"
+  },
+  "homepage": "https://github.com/skylarpowers/LIRI-Bot#readme"
+}
